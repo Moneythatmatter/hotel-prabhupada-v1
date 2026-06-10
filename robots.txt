@@ -1,0 +1,10 @@
+# Allow all search engines to crawl the entire site
+User-agent: *
+Disallow:
+
+# Block specific folder and file types
+Disallow: /private/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://hotelprabhupada.com/sitemap.xml
